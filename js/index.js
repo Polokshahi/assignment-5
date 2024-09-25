@@ -211,7 +211,7 @@ document.getElementById('last-btn').addEventListener('click', function(){
  const history = document.createElement('div');
  history.className = "bg-white p-4 rounded-xl border-2 border-gray-300 mb-4 shadow-lg";
  history.innerHTML = `
-     <p class="text-lg text-gray-500" > <span class="font-bold text-orange-500"> ${cardValue} </span>  ${cardName} </p>
+     <p class="text-lg text-gray-500 mb-3" > <span class="font-bold text-orange-500"> ${cardValue} </span>  ${cardName} </p>
      <p class="text-md text-gray-500 hr p-3 rounded-md">Date: ${date}</p>
  `
  document.getElementById('history-section').appendChild(history);
