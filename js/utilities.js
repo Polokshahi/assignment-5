@@ -12,6 +12,7 @@ function textValuById(id){
     return balance;
 }
 
+// modal to show donation
 
 function toggleModal() {
     const modal = document.getElementById('modal');
